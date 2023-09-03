@@ -62,6 +62,12 @@ p {
     border: none;
     margin-bottom: 35px; 
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.num-btn>button:hover {
+    background: hsl(25, 97%, 53%);
+
 }
 
 .btn>button {
@@ -74,4 +80,10 @@ p {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.btn>button:hover {
+    background:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
 }
